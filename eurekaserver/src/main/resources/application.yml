@@ -1,0 +1,25 @@
+#ctrl+/可以快速注释和取消注释
+
+#多节点模式
+#spring:
+#  application:
+#    name: eureka-server
+#  profiles:
+#    active: peer1
+
+#    单机模式
+  server:
+    port: 8761
+
+  eureka:
+    instance:
+      hostname: localhost
+    client:
+      registerWithEureka: false
+      fetchRegistry: false
+      serviceUrl:
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+  spring:
+    application:
+      name: eurka-server

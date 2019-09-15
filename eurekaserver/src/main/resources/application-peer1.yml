@@ -1,0 +1,17 @@
+server:
+  port: 10001
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔。
+      defaultZone: http://peer2:10002/eureka/,http://peer3:10003/eureka/
+
+#spring.application.name需要一致，否则eureka集群不可用。
+spring:
+  application:
+    name: eureka-server
