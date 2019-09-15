@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/eurekaclient/pom.xml" />
         <option value="$PROJECT_DIR$/webapi/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/serice-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
       </list>
     </option>
   </component>
