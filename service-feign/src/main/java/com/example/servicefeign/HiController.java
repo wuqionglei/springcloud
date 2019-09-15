@@ -1,4 +1,4 @@
-package com.example.sericefeign;
+package com.example.servicefeign;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
