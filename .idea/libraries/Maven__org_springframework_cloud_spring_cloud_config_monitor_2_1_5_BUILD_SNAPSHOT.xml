@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-config-monitor:2.1.5.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-config-monitor/2.1.5.BUILD-SNAPSHOT/spring-cloud-config-monitor-2.1.5.BUILD-20190916.023338-54.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-config-monitor/2.1.5.BUILD-SNAPSHOT/spring-cloud-config-monitor-2.1.5.BUILD-20190916.023338-54-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-config-monitor/2.1.5.BUILD-SNAPSHOT/spring-cloud-config-monitor-2.1.5.BUILD-20190916.023338-54-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
